@@ -14,10 +14,10 @@ Make sure you have the latest versions of GCC, Python and Git Bash installed on 
   - build the RetroArch database (by typing ```make```)
   - copy the file *libretrodb_tool.c* to the root folder (by typing ```cp ./libretrodb_tool.c ../..```)
   - go back to the root folder (by typing ```cd ../..```)
-  - generate the .sqlite file (by typing ```python3 libretro-sqlite-db.py``` if you placed Python in your *PATH* environment variable or ```py libretro-sqlite-db.py``` if you are using the Python launcher)
+  - generate the .sqlite file (by typing ```python3 libretro-sqlite-db.py``` if you placed Python in your *PATH* environment variable or ```py libretro-sqlite-db.py``` if you are using the Python launcher instead)
 
 ### Automatic usage on Linux
-On Linux, open a terminal and simply run the file *ci.sh*. Everything will be generated automatically.
+On Linux, open a terminal and simply run the file *automatic-with-python-path.sh* if you placed Python in your *PATH* environment variable or *automatic-with-python-launcher.sh* if you are using the Python launcher and have no Python libraries placed in your *PATH* variable. Everything will be generated automatically.
   
 ### Automatic usage on Windows
 On Windows, only the manual way makes sense. The automatic way is not so automatic because it requires a lot of setup, which is why I do not recommend it. However, here is what you need to do:
