@@ -31,4 +31,4 @@ Unfortunately, I do not know how any automatic input would work on Mac. Feel fre
 Don't forget to regularly update the *Retroarch* and *libretro-database* folders by navigating to each of them using Git Bash, then executing ```git pull```.
 
 # Credits
-Major thanks to [Swordfish90](https://github.com/Swordfish90) because this tool is a fork of [libretro-sqlite-db](https://github.com/Swordfish90/libretro-sqlite-db).
+Major thanks to [Swordfish90](https://github.com/Swordfish90), [konsumer](https://github.com/konsumer) and [rwnobrega](https://github.com/rwnobrega) because this tool is a fork of [libretro-sqlite-db](https://github.com/Swordfish90/libretro-sqlite-db).
