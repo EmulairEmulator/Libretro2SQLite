@@ -1,8 +1,7 @@
 #!/bin/bash
 if [ ! -d RetroArch ];then
   git clone https://github.com/libretro/RetroArch
-fi
-if [ ! -f  libretrodb_tool ];then
+else
   cd RetroArch/libretro-db
   make
   cp ./libretrodb_tool.c ../..
