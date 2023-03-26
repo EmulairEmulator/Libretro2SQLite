@@ -14,4 +14,4 @@ else
   git pull
   cd ..
 fi
-python3 libretro-sqlite-db.py
+py libretro-sqlite-db.py
