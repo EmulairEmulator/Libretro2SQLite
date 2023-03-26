@@ -15,7 +15,7 @@ It requires to perform the following actions and input the following commands in
   - clone some necessary RetroArch files (type ```git clone https://github.com/libretro/RetroArch```)
   - navigate to *RetroArch/libretro-db* (type ```cd RetroArch/libretro-db```)
   - build the RetroArch database (type ```make```)
-  - copy the file *libretrodb_tool.c* to the root folder (type ```cp ./libretrodb_tool ../..```)
+  - copy the file *libretrodb_tool.c* to the root folder (type ```cp ./libretrodb_tool.c ../..```)
   - go back to the root folder (type ```cd ../..```)
   - generate the .sqlite file (type ```python3 libretro-sqlite-db.py```)
 
