@@ -15,6 +15,7 @@ It requires to perform the following actions and input the following commands in
   - copy the file *libretrodb_tool.c* to the root folder (type ```cp ./libretrodb_tool ../..```)
   - go back to the root folder (type ```cd ../..```)
   - generate the .sqlite file (type ```python3 libretro-sqlite-db.py```)
+
 Don't forget to regularly update the *Retroarch* and the *libretro-database* folders
   
 ## Usage on Windows
