@@ -20,12 +20,12 @@ Make sure you have the latest versions of GCC, Python and Git Bash installed on 
 On Linux, open a terminal and simply run the file *automatic-with-python-path.sh* if you placed Python in your *PATH* environment variable or *automatic-with-python-launcher.sh* if you are using the Python launcher instead. Everything will be generated automatically.
   
 ### Automatic usage on Windows
-On Windows, only the manual way makes sense. The automatic way is not so automatic because it requires a lot of setup, which is why I do not recommend it. However, here is what you need to do:
-
-[COMING SOON]
+On Windows, the automatic method can be done in two ways:
+1. Install the WSL command, open Command Prompt, navigate to this folder (*whatever/path/you/have/Libretro2SQLite*) and type ```bash automatic-with-python-path.sh``` or ```bash automatic-with-python-launcher.sh```, depending on how you installed Python on your machine.
+2. Add "Git Bash Here" to your context menu, right click on this folder (*whatever/path/you/have/Libretro2SQLite*), select "Git Bash Here" and type ```sh automatic-with-python-path.sh``` or ```sh automatic-with-python-launcher.sh```, depending on how you installed Python on your machine.
 
 ### Automatic usage on Mac
-Unfortunately, I do not know how any automatic input would work on Mac. Feel free to contribute to this short documentation if you find out.
+Unfortunately, I don't know how any automatic input would work on Mac. I'm guessing it's similar to the automatic usage on Windows, however, feel free to contribute to this short documentation if you find out exactly how it should be done.
 
 ### Postrequisites
 Don't forget to regularly update the *Retroarch* and *libretro-database* folders by navigating to each of them using Git Bash, then executing ```git pull```.
