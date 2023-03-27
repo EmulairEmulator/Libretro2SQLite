@@ -17,7 +17,7 @@ Make sure you have the latest versions of GCC, Python and Git Bash installed on 
   - generate the .sqlite file (by typing ```python3 libretro-sqlite-db.py``` if you placed Python in your *PATH* environment variable or ```py libretro-sqlite-db.py``` if you are using the Python launcher instead)
 
 ### Automatic usage on Linux
-On Linux, open a terminal and simply run the file *automatic-with-python-path.sh* if you placed Python in your *PATH* environment variable or *automatic-with-python-launcher.sh* if you are using the Python launcher instead. Everything will be generated automatically.
+On Linux, open a terminal and simply run the file *automatic-with-python-path.sh* if you placed Python in your *PATH* environment variable or *automatic-with-python-launcher.sh* if you are using the Python launcher instead. After you've done this, simply wait for the process to finish, because everything will be generated automatically.
   
 ### Automatic usage on Windows
 On Windows, the automatic method can be done in two ways:
