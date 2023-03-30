@@ -114,7 +114,7 @@ def main():
 
 
 def load_database(connection, filename, system):
-    process = subprocess.run(['./libretrodb_tool.c', filename, 'list'], capture_output=True, shell=True)
+    process = subprocess.run(['./libretrodb_tool', filename, 'list'], capture_output=True)
     values = []
     for line in process.stdout.decode().split('\n'):
         line = line.replace('\\', '\\\\')
@@ -140,4 +140,3 @@ def load_database(connection, filename, system):
 
 if __name__ == '__main__':
     main()
-
