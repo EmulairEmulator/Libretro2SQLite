@@ -21,7 +21,7 @@ On Linux, open a terminal and simply run the file *automatic-with-python-path.sh
   
 ### Automatic usage on Windows
 On Windows, the automatic method can be done in two ways:
-1. Install the WSL command, open Command Prompt, navigate to this folder (*whatever/path/you/have/Libretro2SQLite*) and type `bash automatic-with-python-path.sh` or `bash automatic-with-python-launcher.sh`, depending on how you installed Python on your machine.
+1. Install the WSL command, open Command Prompt, navigate to this folder (*whatever/path/you/have/Libretro2SQLite*) and type `bash automatic-with-python-path.sh` or `bash automatic-with-python-launcher.sh`, depending on how you installed Python on your machine. If you get the error "syntax error: unexpected end of file", [use this tool](https://toolslick.com/conversion/text/dos-to-unix) to convert the files to the corect format (when uploading those 2 files to GitHub, their special line endings get removed, which is why this error occurs; the tool mentioned above brings them back).
 2. Right click this folder (*whatever/path/you/have/Libretro2SQLite*), select "Git Bash Here" ([you can add it](https://stackoverflow.com/questions/24386657/how-to-add-a-open-git-bash-here-context-menu-to-the-windows-explorer) if you don't see it in your context menu) and type `sh automatic-with-python-path.sh` or `sh automatic-with-python-launcher.sh`, depending on how you installed Python on your machine.
 
 ### Automatic usage on Mac
