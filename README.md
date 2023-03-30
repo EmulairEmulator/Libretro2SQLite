@@ -1,3 +1,6 @@
+# Description
+This is a small Python script that converts all of RetroArch's .rdb files into a single .sqlite file so it can be used in an emulator front-end such as [Lemuroid](https://github.com/Swordfish90/Lemuroid) or [Emulair](https://github.com/RaduBratan/Emulair).
+
 # Usage
 ### Prerequisites
 Make sure you have the latest versions of GCC, Python and Git Bash installed on your computer.
