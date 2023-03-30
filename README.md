@@ -1,6 +1,3 @@
-# What it does
-[COMING SOON]
-
 # Usage
 ### Prerequisites
 Make sure you have the latest versions of GCC, Python and Git Bash installed on your computer.
