@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: generate SQLite DB
-      run: ./automatic-with-python-path.sh
+      run: ./automatic-sqlite-generation.sh
     - name: Cache libretrodb_tool
       uses: actions/cache@v3
       with:
