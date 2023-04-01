@@ -30,7 +30,7 @@ Also, it's a good idea to [download Git](https://git-scm.com/download/win), but 
 - If you get the error "syntax error: unexpected end of file", [use this tool](https://toolslick.com/conversion/text/dos-to-unix) to convert the *.sh* file to a compatible format (when uploaded to GitHub, the special line endings of *automatic-sqlite-generation* get removed, which is why this error occurs; the tool mentioned above brings them back).
 
 ### Postrequisites
-Don't forget to regularly update the *Retroarch* and *libretro-database* folders by navigating to each of them and executing `git pull`.
+Don't forget to regularly update the *RetroArch* and *libretro-database* folders by navigating to each of them and executing `git pull`.
 
 # Usage on Linux
 I have no idea how much of the "Usage on Windows" section applies here. Feel free to update this documentation if you know the full instructions of using this tool on Linux.
