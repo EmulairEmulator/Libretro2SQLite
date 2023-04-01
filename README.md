@@ -33,10 +33,10 @@ Also, it's a good idea to [download Git](https://git-scm.com/download/win), but 
 Don't forget to regularly update the *RetroArch* and *libretro-database* folders by navigating to each of them and executing `git pull`.
 
 # Usage on Linux
-I have no idea how much of the "Usage on Windows" section applies here. Feel free to update this documentation if you know the full instructions of using this tool on Linux.
+I have no idea how much of the "Usage on Windows" section applies here. Feel free to update this documentation if you know how to use this tool on Linux.
 
 # Usage on macOS
-I also have no idea how one would use this tool on macOS. Feel free to update this documentation if you know the full instructions of using this tool on macOS.
+I also have no idea how one would use this tool on macOS. Feel free to update this documentation if you know how to use this tool on macOS.
 
 # Credits
 Major thanks to [Swordfish90](https://github.com/Swordfish90), [konsumer](https://github.com/konsumer) and [rwnobrega](https://github.com/rwnobrega) because this tool is a fork of [libretro-sqlite-db](https://github.com/Swordfish90/libretro-sqlite-db).
