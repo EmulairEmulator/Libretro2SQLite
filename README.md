@@ -12,7 +12,7 @@ Also, it's a good idea to [download Git](https://git-scm.com/download/win), but 
 ### Manual usage
 - open MSYS2 MINGW64 (for 64-bit computers) or MINGW32 (for 32-bit computers)
 - navigate to the current folder by typing `cd whatever/path/you/have/Libretro2SQLite` (mine, for example, is simply *D:/Libretro2SQLite*, but yours could differ depending on where you cloned this repo)
-- clone the Libretro databse files in .rdb format by typing `git clone https://github.com/libretro/libretro-database` (only done once when you first use the tool)
+- clone the Libretro database files in .rdb format by typing `git clone https://github.com/libretro/libretro-database` (only done once when you first use the tool)
 - clone some necessary RetroArch files by typing `git clone https://github.com/libretro/RetroArch` (only done once when you first use the tool)
 - navigate to *RetroArch/libretro-db* by typing `cd RetroArch/libretro-db`
 - build the RetroArch database by typing `make`
