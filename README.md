@@ -3,7 +3,7 @@ This is a small Python script that converts all of RetroArch's .rdb files into a
 
 # Usage on Windows
 ### Prerequisites
-To use this tool on Windows, you need to install and use MSYS2 by following those steps:
+To use this tool on Windows, you need to install and set up MSYS2 by following those steps:
 1. [download the MSYS2 installer](https://www.msys2.org/) from the official website and follow their installation instructions
 2. follow [the Libretro Doc's instructions](https://docs.libretro.com/development/retroarch/compilation/windows/) for developing RetroArch on Windows (skip installing Qt and the NVIDIA CG toolkit, stop when you reach the "RetroArch Compilation" section).
 
