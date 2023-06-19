@@ -10,6 +10,7 @@ To use this tool on Windows, you need to install and set up MSYS2 by following t
 Also, it's a good idea to [download Git](https://git-scm.com/download/win), but not necessary.
 
 ### Manual usage
+- clone this repo
 - open MSYS2 MINGW64 (for 64-bit computers) or MINGW32 (for 32-bit computers)
 - navigate to the current folder by typing `cd whatever/path/you/have/Libretro2SQLite` (mine, for example, is simply *D:/Libretro2SQLite*, but yours could differ depending on where you cloned this repo)
 - clone the Libretro database files in .rdb format by typing `git clone https://github.com/libretro/libretro-database` (only done once when you first use the tool)
@@ -26,8 +27,8 @@ Also, it's a good idea to [download Git](https://git-scm.com/download/win), but 
 - type `sh automatic-sqlite-generation.sh`
 
 ### Error messages
-- If you encounter "make: Nothing to be done for 'all'.", simply type `make clean` and start the process again.
-- If you get the error "syntax error: unexpected end of file", [use this tool](https://toolslick.com/conversion/text/dos-to-unix) to convert the *.sh* file to a compatible format (when uploaded to GitHub, the special line endings of *automatic-sqlite-generation* get removed, which is why this error occurs; the tool mentioned above brings them back).
+- if you encounter "make: Nothing to be done for 'all'.", simply type `make clean` and start the process again.
+- if you get the error "syntax error: unexpected end of file", [use this tool](https://toolslick.com/conversion/text/dos-to-unix) to convert the *.sh* file to a compatible format (when uploaded to GitHub, the special line endings of *automatic-sqlite-generation* get removed, which is why this error occurs; the tool mentioned above brings them back).
 
 ### Postrequisites
 Don't forget to regularly update the *RetroArch* and *libretro-database* folders by navigating to each of them and executing `git pull`.
