@@ -4,13 +4,12 @@ This is a small Python script that converts all of RetroArch's .rdb files into a
 # Usage on Windows
 ### Prerequisites
 To use this tool on Windows, you need to install and set up MSYS2 by following those steps:
-1. [download the MSYS2 installer](https://www.msys2.org/) from the official website and follow their installation instructions
-2. follow [the Libretro Doc's instructions](https://docs.libretro.com/development/retroarch/compilation/windows/) for developing RetroArch on Windows (skip installing Qt and the NVIDIA CG toolkit, stop when you reach the "RetroArch Compilation" section).
+1. download [Git Bash](https://git-scm.com/download/win)
+2. download the [MSYS2 installer](https://www.msys2.org/) from the official website and follow their installation instructions
+3. follow the [Libretro Doc's instructions](https://docs.libretro.com/development/retroarch/compilation/windows/) for developing RetroArch on Windows (skip installing Qt and the NVIDIA CG toolkit, stop when you reach the "RetroArch Compilation" section).
 
-Also, it's a good idea to [download Git](https://git-scm.com/download/win), but not necessary.
-
-### Manual usage
-- clone this repo
+### Manual usage (with Git Bash)
+- clone this repo by typing `git clone https://github.com/Emulair/Libretro2SQLite`
 - open MSYS2 MINGW64 (for 64-bit computers) or MINGW32 (for 32-bit computers)
 - navigate to the current folder by typing `cd whatever/path/you/have/Libretro2SQLite` (mine, for example, is simply *D:/Libretro2SQLite*, but yours could differ depending on where you cloned this repo)
 - clone the Libretro database files in .rdb format by typing `git clone https://github.com/libretro/libretro-database` (only done once when you first use the tool)
