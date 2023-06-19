@@ -9,6 +9,8 @@ To use this tool on Windows, you need to install and set up MSYS2 by following t
 3. follow the [Libretro Doc's instructions](https://docs.libretro.com/development/retroarch/compilation/windows/) for developing RetroArch on Windows (skip installing Qt and the NVIDIA CG toolkit, stop when you reach the "RetroArch Compilation" section).
 
 ### Manual usage (with Git Bash)
+- open Git Bash
+- select a path on your computer to clone this repo in by typing `cd whatever/path/you/want` (note: if you don't want to select a specific path, *C:/Users/[USERNAME]* will automatically be selected)
 - clone this repo by typing `git clone https://github.com/Emulair/Libretro2SQLite`
 - open MSYS2 MINGW64 (for 64-bit computers) or MINGW32 (for 32-bit computers)
 - navigate to the current folder by typing `cd whatever/path/you/have/Libretro2SQLite` (mine, for example, is simply *D:/Libretro2SQLite*, but yours could differ depending on where you cloned this repo)
